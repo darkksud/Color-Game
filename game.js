@@ -22,7 +22,7 @@ hard.addEventListener("click", function(){
 });
 newGame.addEventListener("click", function()
 {
-    newGame.textContent="new colors";
+    newGame.textContent="new colors?";
     game();
 });
 function game()
@@ -48,7 +48,7 @@ function game()
             console.log(rightSquare, this.style.backgroundColor);
             if(this.style.backgroundColor === rightSquare)
             {
-                verdict.textContent = "wow";
+                verdict.textContent = "CONGRATS!";
                 newGame.textContent = "new game";
                 h1.style.backgroundColor = rightSquare;
                 for(var i=0;i<squares.length-mode;i++)
@@ -58,7 +58,8 @@ function game()
             }
             else
             {
-                console.log("changing", this.style.backgroundColor);this.style.backgroundColor = "#232323";
+                verdict.textContent = "TRY AGAIN!";
+                this.style.backgroundColor = "#232323";
             };
         });
     };
