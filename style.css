@@ -1,0 +1,54 @@
+.square{
+    width: 30%;
+    margin: 1.66%;
+    padding-top: 30%;
+    background-color: aqua;
+    float: left;
+    border-radius: 15%;
+    
+}
+body{
+    background-color:#232323;
+    margin:0;
+    font-family: "Montserrat", "Avenir";
+}
+h1{
+    color: beige;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 600em;
+    width: 50%;
+    margin: 0 auto;
+}
+#stripe{
+    background-color: beige;
+    height: 30px;
+    text-align: center;
+}
+.selected{
+    background-color: steelblue;
+    color: beige;
+}
+button{
+    border: none;
+    background: none;
+    height: 100%;
+    font-family: "Montserrat", "Avenir";
+    transition: all 0.1s;
+    text-transform: uppercase;
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    outline: none;
+}
+button:hover{
+    background: steelblue;
+    color: white;
+}
+h1 span{
+    font-size: 200%;
+}
