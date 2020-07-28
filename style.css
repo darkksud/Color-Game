@@ -5,6 +5,7 @@
     background-color: aqua;
     float: left;
     border-radius: 15%;
+    transition: all 0.6s;
     
 }
 body{
@@ -22,7 +23,7 @@ h1{
 .container{
     max-width: 600em;
     width: 50%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 #stripe{
     background-color: beige;
@@ -51,4 +52,9 @@ button:hover{
 }
 h1 span{
     font-size: 200%;
+    
+}
+#message{
+    display: inline-block;
+    width: 20%;
 }
